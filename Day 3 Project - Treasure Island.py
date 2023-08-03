@@ -55,7 +55,7 @@ if choice == "left" or choice == "Left":
         choice2 = input("What color will you choose? Yellow, Red or Blue?\n")
         print("*******************************************************************************")
         if choice2 == "yellow" or choice2 == "Yellow":
-            print("CONGRATULATIONS! YOU FOUND A TREASURE!")
+            print("CONGRATULATIONS! YOU'VE FOUND A TREASURE!")
         elif choice2 == "red" or choice2 == "Red":
             print("You took 5 steps and stepped on a floor button that triggered a trap.\n"
                   "The whole corridor went up in flames.\n"
