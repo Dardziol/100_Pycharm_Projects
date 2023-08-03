@@ -34,15 +34,15 @@ print("After hours of traveling through the jungle, you've finally found an entr
       "It won't last long and there are 2 tunnels ahead of you.\n"
       "You have only one chance!")
 print("*******************************************************************************")
-choice = input("Would you like to go left or right?\n")
-if choice == "left" or choice == "Left":
+choice = input("Would you like to go left or right?\n").lower()
+if choice == "left":
     print("*******************************************************************************")
     print("You've made a right choice as just when you reached the end of a tunnel your lighter went out.\n"
           "After a long walk you've reached a lake and felt very tired.\n"
           "The water is clean and it looks safe to swim.")
     print("*******************************************************************************")
-    choice1 = input("Would you like to swim or wait?\n")
-    if choice1 == "wait" or choice1 == "Wait":
+    choice1 = input("Would you like to swim or wait?\n").lower()
+    if choice1 == "wait":
         print("*******************************************************************************")
         print("You've decided to wait and rest.\n"
               "You woke up by the sound of a raft that landed on a shore.\n"
@@ -52,16 +52,16 @@ if choice == "left" or choice == "Left":
               "You sense some danger.\n"
               "You have to act fast.")
         print("*******************************************************************************")
-        choice2 = input("What color will you choose? Yellow, Red or Blue?\n")
+        choice2 = input("What color will you choose? Yellow, Red or Blue?\n").lower()
         print("*******************************************************************************")
-        if choice2 == "yellow" or choice2 == "Yellow":
+        if choice2 == "yellow":
             print("CONGRATULATIONS! YOU'VE FOUND A TREASURE!")
-        elif choice2 == "red" or choice2 == "Red":
+        elif choice2 == "red":
             print("You took 5 steps and stepped on a floor button that triggered a trap.\n"
                   "The whole corridor went up in flames.\n"
                   "Burned by fire.\n"
                   "GAME OVER!")
-        elif choice2 == "blue" or choice2 == "Blue":
+        elif choice2 == "blue":
             print("Just when you opened the blue door you heard a strange noise.\n"
                   "What might that be?\n"
                   "Noises started to become louder and grew in numbers when suddenly,\n"
@@ -69,14 +69,14 @@ if choice == "left" or choice == "Left":
                   "You've decided to take a closer look but then you noticed\n"
                   "That there's swarm of larger creatures right above it starting at you.\n"
                   "Slowly you started to step back but the creatures jumped at you.\n"
-                  "Eaten by beasts.\n"
+                  "You were eaten by beasts.\n"
                   "GAME OVER!")
         else:
             print("GAME OVER!")
     else:
         print("You were attacked by a trout.\n"
               "You tried to swim back to the shore but lost stamina too quickly.\n"
-              "Drowned.\n"
+              "You drowned.\n"
               "GAME OVER!")
 else:
     print("'Damn, that tunnel is so long' you said to yourself.\n"
