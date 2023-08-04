@@ -32,10 +32,10 @@ user = int(input("What do you choose? Type 0 for rock, 1 for paper or 2 for scis
 if user >= 3 or user < 0:
     print("You can't use anything else, you lose!")
 else:
-    print(f"You chose:")
+    print("You chose:")
     print(rps[user])
     computer = random.randint(0, 2)
-    print(f"Computer chose:")
+    print("Computer chose:")
     print(rps[computer])
     if user == computer:
         print("It's a draw!")
