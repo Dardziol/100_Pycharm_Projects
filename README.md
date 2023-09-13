@@ -1,3 +1,4 @@
-# 100_Python_Projects
-# This repository will be updated as I'll go through 100 days of code course.
-# It will contain only projects. Exercises won't be commited.
+# My Python projects.
+# This repository will be updated as I'll progress through 100 days of code course by Dr.Angela Yu on Udemy.
+# It will contain only projects. 
+# Exercises won't be commited.
